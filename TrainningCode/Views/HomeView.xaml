@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="TrainningCode.Views.HomeView"
+             BackgroundColor="#eeecec">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">   
+          <Grid   >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Image Source="overlay.png" Aspect="Fill" HeightRequest="180" VerticalOptions="StartAndExpand"/>
+            <StackLayout Grid.Row="0" Orientation="Horizontal" >
+                <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Start" VerticalOptions="Start" Margin="10,10">
+                        <ImageButton Source="PersonalN.png" WidthRequest="48" HeightRequest="48" HorizontalOptions="Start" VerticalOptions="Center" BackgroundColor="Transparent"/>
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="913456789000" FontSize="20" VerticalOptions="Center" TextColor="White"/>
+                        <Label Text="100 Điểm - TV" FontSize="20" VerticalOptions="Center" TextColor="White"/>
+                    </StackLayout>
+                </StackLayout>
+                <ImageButton Source="notify.png" WidthRequest="35" HeightRequest="35" VerticalOptions="Start" HorizontalOptions="EndAndExpand" Margin="10,10" BackgroundColor="Transparent"/>
+            </StackLayout>
+
+                <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="10,-100,10,0" Padding="0" HeightRequest="200" WidthRequest="400" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">
+                    <ScrollView HorizontalOptions="FillAndExpand" Orientation="Horizontal" BackgroundColor="Transparent">
+                        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand"
+                HorizontalOptions="FillAndExpand"
+                BackgroundColor="Transparent"
+                BindableLayout.ItemsSource="{Binding TopImage}">
+                            <BindableLayout.ItemTemplate>
+                                <DataTemplate>
+                                    <Frame HasShadow="True" CornerRadius="10" Margin="0,0,10,0" Padding="0" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                                        <Image Source="{Binding Url}" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="390"/>
+                                    </Frame>
+                                       
+                                  
+                                </DataTemplate>
+                            </BindableLayout.ItemTemplate>
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+                <!--<Frame HasShadow="True" CornerRadius="10" Margin="20,-100,20,0" Padding="0" HeightRequest="200" WidthRequest="400" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                        
+                         <Image Source="{Binding Url}" Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>                                      
+
+                    </Frame>-->
+
+              
+            
+                <Grid Grid.Row="2" Margin="20,10,20,10" ColumnSpacing="20">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Frame Grid.Column="0" Grid.Row="0" HeightRequest="100" BackgroundColor="Transparent" CornerRadius="15" HasShadow="True" IsClippedToBounds="True" Padding="0">
+                        <StackLayout VerticalOptions="Center">
+                            <Image Source="checkprice.png" WidthRequest="80" HeightRequest="80" Aspect="Fill"/>
+                            <Label Text="CheckPrice"  HorizontalTextAlignment="Center" TextColor="#fc6353"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Grid.Column="1" Grid.Row="0" HeightRequest="100" BackgroundColor="Transparent" CornerRadius="15" HasShadow="True" IsClippedToBounds="True" Padding="0">
+                        <StackLayout VerticalOptions="Center">
+                            <Image Source="promotion.png" WidthRequest="80" HeightRequest="80" Aspect="Fill"/>
+                            <Label Text="Promotin"  HorizontalTextAlignment="Center" TextColor="#fc6353"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Grid.Column="2" Grid.Row="0" HeightRequest="100" BackgroundColor="Transparent" CornerRadius="15" HasShadow="True" IsClippedToBounds="True" Padding="0">
+                        <StackLayout VerticalOptions="Center">
+                            <Image Source="Account.png" WidthRequest="80" HeightRequest="80" Aspect="AspectFit"/>
+                            <Label Text="Account" HorizontalTextAlignment="Center" TextColor="#fc6353"/>
+                        </StackLayout>
+                    </Frame>
+                    <Frame Grid.Column="3" Grid.Row="0" HeightRequest="100" BackgroundColor="Transparent" CornerRadius="15" HasShadow="True" IsClippedToBounds="True" Padding="0">
+                        <StackLayout VerticalOptions="Center">
+                            <Image Source="NewsIcon.png" WidthRequest="80" HeightRequest="80" Aspect="AspectFit"/>
+                            <Label Text="News" HorizontalTextAlignment="Center" TextColor="#fc6353"/>
+                        </StackLayout>
+                    </Frame>
+                </Grid>
+                     <Frame Grid.Row="3" HeightRequest="200" BackgroundColor="White" Margin="5" HasShadow="True" CornerRadius="5" >
+                        <StackLayout Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="Promotion" FontSize="Title"  HorizontalTextAlignment="Start" HorizontalOptions="Start" TextColor="Black"/>
+                                <Label Text="xem thêm >>"  HorizontalTextAlignment="End" HorizontalOptions="EndAndExpand" TextColor="LightGreen"/>
+                            </StackLayout>
+                        <Frame HeightRequest="220" HasShadow="True" CornerRadius="10" Padding="0">
+                            <Image Source="http://www.duy.somee.com/cimage.jpg" Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Margin="0"/>
+                        </Frame>
+                    </StackLayout>
+                    
+                </Frame>
+
+                
+                
+            </Grid>
+            
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

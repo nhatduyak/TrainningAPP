@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms" 
+             xmlns:zxcm="clr-namespace:ZXing.Common;assembly=zxing.portable"
+             x:Class="TrainningCode.Views.BarcodeView">
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Image Source="overlay.png" Aspect="Fill" HeightRequest="180" VerticalOptions="StartAndExpand"/>
+                <StackLayout Grid.Row="0" Orientation="Horizontal" Margin="0,30,0,0">
+                    <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="CenterAndExpand" VerticalOptions="Start" Margin="10,10">
+                        <StackLayout Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+                            <Label Text="913456789000 - Nguyen Van A" FontSize="20" VerticalOptions="Center" HorizontalOptions="Center" TextColor="White"/>
+                            <Label Text="100 Điểm - TV" FontSize="20" HorizontalOptions="CenterAndExpand" TextColor="White"/>
+                        </StackLayout>
+                    </StackLayout>
+                </StackLayout>
+
+                <Frame Grid.Row="1" HasShadow="True" CornerRadius="20" Margin="30,-80,30,0" Padding="0" HeightRequest="150" WidthRequest="330" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                    <StackLayout Orientation="Vertical">
+                    <Frame HasShadow="False" HeightRequest="110" WidthRequest="330" Margin="0,20,0,0" Padding="0">
+                        <zxing:ZXingBarcodeImageView x:Name="BarcodeImageView" IsVisible="True" BarcodeValue="2499015500977" BarcodeFormat="EAN_13">
+                            <zxing:ZXingBarcodeImageView.BarcodeOptions>
+                                <zxcm:EncodingOptions Width="300" Height="100"/>
+                            </zxing:ZXingBarcodeImageView.BarcodeOptions>
+                        </zxing:ZXingBarcodeImageView>
+                    </Frame>
+                   
+                        <Label Text="2499015500977" TextColor="Black" HorizontalOptions="Center" FontSize="16" VerticalOptions="EndAndExpand"/>
+
+                    </StackLayout>
+                </Frame>
+
+            </Grid>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

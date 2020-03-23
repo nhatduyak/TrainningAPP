@@ -1,0 +1,16 @@
+D:\2020\Xamarin\TrainningCode\TrainningCode\bin\Debug\netstandard2.0\TrainningCode.deps.json
+D:\2020\Xamarin\TrainningCode\TrainningCode\bin\Debug\netstandard2.0\TrainningCode.dll
+D:\2020\Xamarin\TrainningCode\TrainningCode\bin\Debug\netstandard2.0\ref\TrainningCode.dll
+D:\2020\Xamarin\TrainningCode\TrainningCode\bin\Debug\netstandard2.0\TrainningCode.pdb
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\Views\BarcodeView.xaml.g.cs
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\Views\HomeView.xaml.g.cs
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\Views\LoginView.xaml.g.cs
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.AssemblyInfoInputs.cache
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.AssemblyInfo.cs
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.dll
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\ref\TrainningCode.dll
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.pdb
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\XamlC.stamp
+D:\2020\Xamarin\TrainningCode\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.csprojAssemblyReference.cache
