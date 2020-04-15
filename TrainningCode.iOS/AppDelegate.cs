@@ -22,7 +22,8 @@ namespace TrainningCode.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            
+            XF.Material.iOS.Material.Init();
+
             global::ZXing.Net.Mobile.Forms.iOS.Platform.Init();
             LoadApplication(new App());
 

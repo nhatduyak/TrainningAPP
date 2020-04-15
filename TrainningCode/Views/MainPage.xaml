@@ -8,8 +8,8 @@
              x:Class="TrainningCode.Views.MainPage">
   <!--Pages can be added as references or inline-->
     <views:HomeView IconImageSource="home"/>
-    <views:HomeView IconImageSource="search"/>
+    <views:SearchView IconImageSource="search"/>
     <views:BarcodeView IconImageSource="barcode"/>
-    <views:HomeView IconImageSource="list"/>
+    <views:ListSPView IconImageSource="list"/>
     <views:LoginView IconImageSource="user"/>
 </TabbedPage>

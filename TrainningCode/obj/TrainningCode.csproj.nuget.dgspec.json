@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\2020\\Xamarin\\TrainningCode\\TrainningCode\\TrainningCode.csproj": {}
+    "D:\\2020\\Xamarin\\TrainningCode\\TrainningAPP\\TrainningCode\\TrainningCode.csproj": {}
   },
   "projects": {
-    "D:\\2020\\Xamarin\\TrainningCode\\TrainningCode\\TrainningCode.csproj": {
+    "D:\\2020\\Xamarin\\TrainningCode\\TrainningAPP\\TrainningCode\\TrainningCode.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\2020\\Xamarin\\TrainningCode\\TrainningCode\\TrainningCode.csproj",
+        "projectUniqueName": "D:\\2020\\Xamarin\\TrainningCode\\TrainningAPP\\TrainningCode\\TrainningCode.csproj",
         "projectName": "TrainningCode",
-        "projectPath": "D:\\2020\\Xamarin\\TrainningCode\\TrainningCode\\TrainningCode.csproj",
+        "projectPath": "D:\\2020\\Xamarin\\TrainningCode\\TrainningAPP\\TrainningCode\\TrainningCode.csproj",
         "packagesPath": "C:\\Users\\npnhatduy\\.nuget\\packages\\",
-        "outputPath": "D:\\2020\\Xamarin\\TrainningCode\\TrainningCode\\obj\\",
+        "outputPath": "D:\\2020\\Xamarin\\TrainningCode\\TrainningAPP\\TrainningCode\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -43,19 +43,35 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.1.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "XF.Material": {
+              "target": "Package",
+              "version": "[1.6.3, )"
+            },
             "Xamarin.Essentials": {
               "target": "Package",
-              "version": "[1.5.1, )"
+              "version": "[1.5.2, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.FFImageLoading.Transformations": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[4.5.0.356, )"
+              "version": "[4.5.0.617, )"
             },
             "ZXing.Net.Mobile": {
               "target": "Package",
