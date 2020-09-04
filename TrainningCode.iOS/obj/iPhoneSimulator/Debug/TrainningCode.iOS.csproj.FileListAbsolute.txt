@@ -145,3 +145,10 @@ D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\FFImageLoading.Forms.pdb
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\XF.Material.dll
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\XF.Material.pdb
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.dll
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\Plugin.Permissions.pdb
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.dll
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.Abstractions.pdb
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.dll
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\Plugin.Connectivity.pdb
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.PancakeView.dll

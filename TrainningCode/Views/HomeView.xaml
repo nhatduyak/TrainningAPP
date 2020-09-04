@@ -6,47 +6,79 @@
              xmlns:material="clr-namespace:XF.Material.Forms.UI;assembly=XF.Material"
              mc:Ignorable="d"
              x:Class="TrainningCode.Views.HomeView"
-             
+             xmlns:bvr="clr-namespace:TrainningCode.Behaviours"
+             xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+
              >
     <ContentPage.Content>
-        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
-            <Grid   >
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">
+
+            <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Image Source="overlay.png" Aspect="Fill" HeightRequest="180" VerticalOptions="StartAndExpand"/>
-                <StackLayout Grid.Row="0" Orientation="Horizontal" >
-                    <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Start" VerticalOptions="Start" Margin="10,10">
-                        <ImageButton Source="PersonalN.png" WidthRequest="48" HeightRequest="48" HorizontalOptions="Start" VerticalOptions="Center" BackgroundColor="Transparent"/>
-                        <StackLayout Orientation="Vertical">
-                            <Label Text="913456789000" FontSize="20" VerticalOptions="Center" TextColor="White"/>
-                            <Label Text="100 Điểm - TV" FontSize="20" VerticalOptions="Center" TextColor="White"/>
+
+                <!--<Image Source="overlay.png" Aspect="Fill" HeightRequest="180" VerticalOptions="StartAndExpand"/>-->
+
+                <StackLayout Orientation="Vertical">
+                    <Label Text="No Internet" VerticalOptions="StartAndExpand"  BackgroundColor="#E84342" HeightRequest="30" TextColor="White" FontSize="Medium" HorizontalTextAlignment="Center">
+                        <Label.Behaviors>
+                            <bvr:ConnectivityLabelBehaviour />
+                        </Label.Behaviors>
+                    </Label>
+                    <yummy:PancakeView
+                            Margin="16"
+                            BackgroundGradientAngle="45"
+                            BackgroundGradientEndColor="Azure"
+                            BackgroundGradientStartColor="LightSkyBlue"
+                            CornerRadius="32,0,0,32"
+                            HasShadow="True"
+                            HeightRequest="100"
+                            VerticalOptions="CenterAndExpand">  
+                      
+                        <StackLayout Grid.Row="0" Orientation="Horizontal" >
+
+                            <StackLayout Orientation="Horizontal" Spacing="20" HorizontalOptions="Start" VerticalOptions="Start" Margin="10,10">
+                                <ImageButton Source="PersonalN.png" WidthRequest="48" HeightRequest="48" HorizontalOptions="Start" VerticalOptions="Center" BackgroundColor="Transparent"/>
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="913456789000" FontSize="20" VerticalOptions="Center" TextColor="White"/>
+                                    <Label Text="100 Điểm - TV" FontSize="20" VerticalOptions="Center" TextColor="White"/>
+                                </StackLayout>
+                            </StackLayout>
+                            <ImageButton Source="notify.png" WidthRequest="35" HeightRequest="35" VerticalOptions="Start" HorizontalOptions="EndAndExpand" Margin="10,10" BackgroundColor="Transparent"/>
                         </StackLayout>
-                    </StackLayout>
-                    <ImageButton Source="notify.png" WidthRequest="35" HeightRequest="35" VerticalOptions="Start" HorizontalOptions="EndAndExpand" Margin="10,10" BackgroundColor="Transparent"/>
+                    </yummy:PancakeView>
                 </StackLayout>
 
-                <Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="10,-100,10,0" Padding="0" HeightRequest="200" WidthRequest="400" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">
-                    <ScrollView HorizontalOptions="FillAndExpand" Orientation="Horizontal" BackgroundColor="Transparent">
-                        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand"
+
+                <!--<Frame Grid.Row="1" HasShadow="True" CornerRadius="10" Margin="10,-100,10,0" Padding="0" HeightRequest="200" WidthRequest="400" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="Transparent">-->
+
+                <ScrollView Grid.Row="1" HorizontalOptions="FillAndExpand" Orientation="Horizontal" BackgroundColor="Transparent" HorizontalScrollBarVisibility="Never">
+                    <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand"
                 HorizontalOptions="FillAndExpand"
                 BackgroundColor="Transparent"
                 BindableLayout.ItemsSource="{Binding TopImage}">
-                            <BindableLayout.ItemTemplate>
-                                <DataTemplate>
-                                    <Frame HasShadow="True" CornerRadius="10" Margin="0,0,10,0" Padding="0" BackgroundColor="Transparent" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
-                                        <Image Source="{Binding Url}" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="390"/>
-                                    </Frame>
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate>
+                                <yummy:PancakeView
+                     Grid.Row="1"
+            BackgroundColor="Transparent"
+            CornerRadius="32,0,0,32"
+            HasShadow="True"
+            HeightRequest="200"
+            Margin="10">
+                                    <Image Source="{Binding Url}" Aspect="AspectFill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" WidthRequest="390"/>
+                                </yummy:PancakeView>
 
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </StackLayout>
+                </ScrollView>
+                <!--</Frame>-->
 
-                                </DataTemplate>
-                            </BindableLayout.ItemTemplate>
-                        </StackLayout>
-                    </ScrollView>
-                </Frame>
                 <!--<Frame HasShadow="True" CornerRadius="10" Margin="20,-100,20,0" Padding="0" HeightRequest="200" WidthRequest="400" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="White">
                         
                          <Image Source="{Binding Url}" Aspect="Fill" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>                                      
@@ -105,7 +137,6 @@
                     </StackLayout>
 
                 </material:MaterialCard>
-
 
 
             </Grid>

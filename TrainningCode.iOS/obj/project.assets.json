@@ -33,6 +33,21 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "Rg.Plugins.Popup/2.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -52,6 +67,17 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.2": {
@@ -229,6 +255,18 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.3.7": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
       "XF.Material/1.6.3": {
         "type": "package",
         "dependencies": {
@@ -277,11 +315,13 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.1.2",
+          "Plugin.Permissions": "6.0.1",
           "XF.Material": "1.6.3",
-          "Xamarin.Essentials": "1.5.2",
+          "Xam.Plugin.Connectivity": "3.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
           "Xamarin.Forms": "4.5.0.617",
+          "Xamarin.Forms.PancakeView": "1.3.7",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -325,6 +365,21 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "Rg.Plugins.Popup/2.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -344,6 +399,17 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.2": {
@@ -521,6 +587,18 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.3.7": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
       "XF.Material/1.6.3": {
         "type": "package",
         "dependencies": {
@@ -569,11 +647,13 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.1.2",
+          "Plugin.Permissions": "6.0.1",
           "XF.Material": "1.6.3",
-          "Xamarin.Essentials": "1.5.2",
+          "Xam.Plugin.Connectivity": "3.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
           "Xamarin.Forms": "4.5.0.617",
+          "Xamarin.Forms.PancakeView": "1.3.7",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -617,6 +697,21 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "Rg.Plugins.Popup/2.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -636,6 +731,17 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.2": {
@@ -813,6 +919,18 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.3.7": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
       "XF.Material/1.6.3": {
         "type": "package",
         "dependencies": {
@@ -861,11 +979,13 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.1.2",
+          "Plugin.Permissions": "6.0.1",
           "XF.Material": "1.6.3",
-          "Xamarin.Essentials": "1.5.2",
+          "Xam.Plugin.Connectivity": "3.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
           "Xamarin.Forms": "4.5.0.617",
+          "Xamarin.Forms.PancakeView": "1.3.7",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -909,6 +1029,21 @@
           "lib/xamarinios10/Lottie.Forms.dll": {}
         }
       },
+      "Plugin.Permissions/6.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Essentials": "1.5.2"
+        },
+        "frameworkAssemblies": [
+          "System.Drawing.Common.dll"
+        ],
+        "compile": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Plugin.Permissions.dll": {}
+        }
+      },
       "Rg.Plugins.Popup/2.0.0.1": {
         "type": "package",
         "dependencies": {
@@ -928,6 +1063,17 @@
         },
         "runtime": {
           "lib/Xamarin.iOS10/WebP.Touch.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/3.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/Plugin.Connectivity.dll": {}
         }
       },
       "Xamarin.Essentials/1.5.2": {
@@ -1105,6 +1251,18 @@
           "buildTransitive/Xamarin.Forms.targets": {}
         }
       },
+      "Xamarin.Forms.PancakeView/1.3.7": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "3.6.0.220655"
+        },
+        "compile": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        },
+        "runtime": {
+          "lib/xamarinios10/Xamarin.Forms.PancakeView.dll": {}
+        }
+      },
       "XF.Material/1.6.3": {
         "type": "package",
         "dependencies": {
@@ -1153,11 +1311,13 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Autofac": "5.1.2",
+          "Plugin.Permissions": "6.0.1",
           "XF.Material": "1.6.3",
-          "Xamarin.Essentials": "1.5.2",
+          "Xam.Plugin.Connectivity": "3.2.0",
           "Xamarin.FFImageLoading.Forms": "2.4.11.982",
           "Xamarin.FFImageLoading.Transformations": "2.4.11.982",
           "Xamarin.Forms": "4.5.0.617",
+          "Xamarin.Forms.PancakeView": "1.3.7",
           "ZXing.Net.Mobile": "2.4.1",
           "ZXing.Net.Mobile.Forms": "2.4.1"
         },
@@ -1248,6 +1408,37 @@
         "readme.txt"
       ]
     },
+    "Plugin.Permissions/6.0.1": {
+      "sha512": "na/0FNhyKmSicANWZMLSM0y/FW2AvLoawX3lsvBpELwP15sdJRyuBhRKk1OQjRoNrmTIewcON1tJFyydjMGWcA==",
+      "type": "package",
+      "path": "plugin.permissions/6.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid10.0/Plugin.Permissions.dll",
+        "lib/monoandroid10.0/Plugin.Permissions.pdb",
+        "lib/monoandroid80/Plugin.Permissions.dll",
+        "lib/monoandroid80/Plugin.Permissions.pdb",
+        "lib/monoandroid81/Plugin.Permissions.dll",
+        "lib/monoandroid81/Plugin.Permissions.pdb",
+        "lib/monoandroid90/Plugin.Permissions.dll",
+        "lib/monoandroid90/Plugin.Permissions.pdb",
+        "lib/netstandard1.0/Plugin.Permissions.dll",
+        "lib/netstandard1.0/Plugin.Permissions.pdb",
+        "lib/netstandard2.0/Plugin.Permissions.dll",
+        "lib/netstandard2.0/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.dll",
+        "lib/uap10.0.16299/Plugin.Permissions.pdb",
+        "lib/uap10.0.16299/Plugin.Permissions.pri",
+        "lib/xamarinios10/Plugin.Permissions.dll",
+        "lib/xamarinios10/Plugin.Permissions.pdb",
+        "lib/xamarintvos10/Plugin.Permissions.dll",
+        "lib/xamarintvos10/Plugin.Permissions.pdb",
+        "plugin.permissions.6.0.1.nupkg.sha512",
+        "plugin.permissions.nuspec",
+        "readme.txt"
+      ]
+    },
     "Rg.Plugins.Popup/2.0.0.1": {
       "sha512": "c2KPUVNKgtz7Rr5JnpGASmEyZOrqaZtXL8OesiTKJ3vMTpvXHuQW/fC2KjZHrGouO0xoDkdTCGEK87fzb6kA9w==",
       "type": "package",
@@ -1306,6 +1497,74 @@
         "lib/Xamarin.iOS10/WebP.Touch.xml",
         "webp.touch.1.0.8.nupkg.sha512",
         "webp.touch.nuspec"
+      ]
+    },
+    "Xam.Plugin.Connectivity/3.2.0": {
+      "sha512": "ZV45TaBTCJg7XQNEl3fPyyJcuMMhdDEQ6BCLc/5pMuTv38M226ER0WTu5sbmba8jlliDuzeRqkRFHwrGdWAgyg==",
+      "type": "package",
+      "path": "xam.plugin.connectivity/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll.mdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.xml",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/UAP10/Plugin.Connectivity.XML",
+        "lib/UAP10/Plugin.Connectivity.dll",
+        "lib/UAP10/Plugin.Connectivity.pdb",
+        "lib/UAP10/Plugin.Connectivity.pri",
+        "lib/UAP10/Plugin.Connectivity/Properties/Plugin.Connectivity.rd.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.dll",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.pdb",
+        "lib/Xamarin.Mac20/Plugin.Connectivity.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.pdb",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.Abstractions.xml",
+        "lib/XamarinTVOS/Plugin.Connectivity.dll",
+        "lib/XamarinTVOS/Plugin.Connectivity.pdb",
+        "lib/XamarinTVOS/Plugin.Connectivity.xml",
+        "lib/net45/Plugin.Connectivity.Abstractions.dll",
+        "lib/net45/Plugin.Connectivity.Abstractions.pdb",
+        "lib/net45/Plugin.Connectivity.Abstractions.xml",
+        "lib/net45/Plugin.Connectivity.XML",
+        "lib/net45/Plugin.Connectivity.dll",
+        "lib/net45/Plugin.Connectivity.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netcoreapp2.0/Plugin.Connectivity.deps.json",
+        "lib/netcoreapp2.0/Plugin.Connectivity.dll",
+        "lib/netcoreapp2.0/Plugin.Connectivity.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.Abstractions.xml",
+        "lib/netstandard1.0/Plugin.Connectivity.deps.json",
+        "lib/netstandard1.0/Plugin.Connectivity.dll",
+        "lib/netstandard1.0/Plugin.Connectivity.pdb",
+        "lib/netstandard1.0/Plugin.Connectivity.xml",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.dll",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.pdb",
+        "lib/tizen40/Plugin.Connectivity.Abstractions.xml",
+        "lib/tizen40/Plugin.Connectivity.deps.json",
+        "lib/tizen40/Plugin.Connectivity.dll",
+        "xam.plugin.connectivity.3.2.0.nupkg.sha512",
+        "xam.plugin.connectivity.nuspec"
       ]
     },
     "Xamarin.Essentials/1.5.2": {
@@ -1814,6 +2073,24 @@
         "xamarin.forms.nuspec"
       ]
     },
+    "Xamarin.Forms.PancakeView/1.3.7": {
+      "sha512": "b6g3lVHV764yU4BRPzb1bvHT4G9xSQAXIPGtWQvryzLgU2qoqvnboiL5caJfLLFYXPtDy5ptoRD/TzC5i3VF3w==",
+      "type": "package",
+      "path": "xamarin.forms.pancakeview/1.3.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/monoandroid81/Xamarin.Forms.PancakeView.dll",
+        "lib/monoandroid90/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard1.0/Xamarin.Forms.PancakeView.dll",
+        "lib/netstandard2.0/Xamarin.Forms.PancakeView.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.PancakeView.dll",
+        "lib/uap10.0.16299/Xamarin.Forms.PancakeView.pri",
+        "lib/xamarinios10/Xamarin.Forms.PancakeView.dll",
+        "xamarin.forms.pancakeview.1.3.7.nupkg.sha512",
+        "xamarin.forms.pancakeview.nuspec"
+      ]
+    },
     "XF.Material/1.6.3": {
       "sha512": "TxqeDlmqYsPskDlk26tG+7QJPZ5RO0sv0y1BqVLPbHv1H0DLwdWb2T3VPSMCQck3jU76A/s8GRo9PVF3usuKSw==",
       "type": "package",
@@ -1906,12 +2183,14 @@
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "Autofac >= 5.1.2",
+      "Plugin.Permissions >= 6.0.1",
       "TrainningCode >= 1.0.0",
       "XF.Material >= 1.6.3",
-      "Xamarin.Essentials >= 1.5.2",
+      "Xam.Plugin.Connectivity >= 3.2.0",
       "Xamarin.FFImageLoading.Forms >= 2.4.11.982",
       "Xamarin.FFImageLoading.Transformations >= 2.4.11.982",
       "Xamarin.Forms >= 4.5.0.617",
+      "Xamarin.Forms.PancakeView >= 1.3.7",
       "ZXing.Net.Mobile >= 2.4.1",
       "ZXing.Net.Mobile.Forms >= 2.4.1"
     ]
@@ -1935,6 +2214,7 @@
       ],
       "configFilePaths": [
         "C:\\Users\\npnhatduy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -1942,6 +2222,7 @@
         "xamarinios10"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -1962,13 +2243,17 @@
             "target": "Package",
             "version": "[5.1.2, )"
           },
+          "Plugin.Permissions": {
+            "target": "Package",
+            "version": "[6.0.1, )"
+          },
           "XF.Material": {
             "target": "Package",
             "version": "[1.6.3, )"
           },
-          "Xamarin.Essentials": {
+          "Xam.Plugin.Connectivity": {
             "target": "Package",
-            "version": "[1.5.2, )"
+            "version": "[3.2.0, )"
           },
           "Xamarin.FFImageLoading.Forms": {
             "target": "Package",
@@ -1981,6 +2266,10 @@
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.5.0.617, )"
+          },
+          "Xamarin.Forms.PancakeView": {
+            "target": "Package",
+            "version": "[1.3.7, )"
           },
           "ZXing.Net.Mobile": {
             "target": "Package",

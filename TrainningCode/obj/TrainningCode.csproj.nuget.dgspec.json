@@ -19,6 +19,7 @@
         ],
         "configFilePaths": [
           "C:\\Users\\npnhatduy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -26,6 +27,7 @@
           "netstandard2.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 19.2\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -53,13 +55,17 @@
               "version": "[2.0.3, )",
               "autoReferenced": true
             },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
             "XF.Material": {
               "target": "Package",
               "version": "[1.6.3, )"
             },
-            "Xamarin.Essentials": {
+            "Xam.Plugin.Connectivity": {
               "target": "Package",
-              "version": "[1.5.2, )"
+              "version": "[3.2.0, )"
             },
             "Xamarin.FFImageLoading.Forms": {
               "target": "Package",
@@ -72,6 +78,10 @@
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.5.0.617, )"
+            },
+            "Xamarin.Forms.PancakeView": {
+              "target": "Package",
+              "version": "[1.3.7, )"
             },
             "ZXing.Net.Mobile": {
               "target": "Package",
@@ -92,7 +102,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

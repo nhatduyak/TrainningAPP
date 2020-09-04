@@ -28,7 +28,6 @@ D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.dll
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\ref\TrainningCode.dll
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.pdb
-D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\TrainningCode.csprojAssemblyReference.cache
-D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\XamlC.stamp
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\Views\ListSPView.xaml.g.cs
 D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\Views\SearchView.xaml.g.cs
+D:\2020\Xamarin\TrainningCode\TrainningAPP\TrainningCode\obj\Debug\netstandard2.0\XamlC.stamp

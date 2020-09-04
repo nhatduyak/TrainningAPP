@@ -6,6 +6,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Plugin.Permissions;
 
 namespace TrainningCode.Droid
 {
@@ -30,7 +31,7 @@ namespace TrainningCode.Droid
         private void InitControl(Bundle savedInstanceState)
         {
             global::Xamarin.Forms.Forms.SetFlags("FastRenderers_Experimental");
-            Xamarin.Essentials.Platform.Init(this, savedInstanceState);
+            //Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::ZXing.Net.Mobile.Forms.Android.Platform.Init();
             FFImageLoading.Forms.Platform.CachedImageRenderer.Init(true);
         }
@@ -41,5 +42,6 @@ namespace TrainningCode.Droid
 
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
+        
     }
 }
